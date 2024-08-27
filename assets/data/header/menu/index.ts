@@ -1,4 +1,4 @@
-import { HeaderProps } from "@/src/layout/header/desktop";
+import { HeaderProps } from "@/components/header/desktop";
 
 export const menuItemsProps: HeaderProps["menuItems"] = [
 	{
@@ -22,6 +22,7 @@ export const menuItemsProps: HeaderProps["menuItems"] = [
 			},
 		],
 	},
+
 	{
 		title: "محصولات",
 		subMenuItems: [
